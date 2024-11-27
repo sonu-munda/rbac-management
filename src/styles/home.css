@@ -1,0 +1,28 @@
+.home-button-container {
+    max-width: 900px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 24px;
+}
+
+.home-button {
+    flex: 1;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: skyblue;
+    border-radius: 16px;
+}
+
+.home-button img {
+    height: 120px;
+    width: 120px;
+}
