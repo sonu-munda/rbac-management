@@ -1,7 +1,18 @@
 import React from 'react'
+import Appbar from '../components/Appbar'
+import Feed from '../components/Feed'
+import '../styles/home.css'
+import HomeButtons from '../components/HomeButtons'
+
 
 export default function UserScreen() {
     return (
-        <div>UserScreen</div>
+        <>
+            <Appbar />
+            <div className='container-wrapper'>
+                <HomeButtons />
+                <Feed />
+            </div>
+        </>
     )
 }

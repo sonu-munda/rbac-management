@@ -10,9 +10,9 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<Login />} />
-        <Route exact path="/home" element={<HomeScreen />} />
-        <Route path="/home/users" element={<UserScreen />} />
-        <Route path="/home/roles" element={<RoleScreen />} />
+        <Route path="/home" element={<HomeScreen />} />
+        <Route path="/users" element={<UserScreen />} />
+        <Route path="/roles" element={<RoleScreen />} />
       </Routes>
     </Router>
   );
