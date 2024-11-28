@@ -16,3 +16,15 @@ export default function HomeButtons() {
     )
 }
 
+
+export function UserButtons() {
+    return (
+        <div className='home-button-container'>
+            <Link to='/users/addedit' href='' className='home-button' >
+                <img src='../add.png' />
+                <h4>ADD NEW USER</h4>
+            </Link>
+        </div>
+    )
+}
+

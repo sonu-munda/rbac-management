@@ -1,8 +1,8 @@
 import React from 'react'
 import Appbar from '../components/Appbar'
-import Feed from '../components/Feed'
 import '../styles/home.css'
-import HomeButtons from '../components/HomeButtons'
+import { UserButtons } from '../components/Buttons'
+import Users from '../components/Users'
 
 
 export default function UserScreen() {
@@ -10,8 +10,8 @@ export default function UserScreen() {
         <>
             <Appbar />
             <div className='container-wrapper'>
-                <HomeButtons />
-                <Feed />
+                <UserButtons />
+                <Users />
             </div>
         </>
     )

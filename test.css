@@ -1,3 +1,19 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Feed Container */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 .feed-container {
     max-width: 900px;
     width: 100%;
@@ -10,7 +26,7 @@
 /* Header */
 .header {
     padding: 20px;
-    background: linear-gradient(135deg, #4c669f, #3b5998, #192f6a);
+    background: #6c63ff;
     color: white;
     text-align: center;
 }
@@ -34,7 +50,6 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     /* Updated box-shadow */
     transition: transform 0.3s, box-shadow 0.3s;
-    position: relative;
     /* Smooth transition */
 }
 
@@ -56,8 +71,6 @@
 .post-content {
     padding: 15px;
     flex: 1;
-    display: flex;
-    flex-direction: column;
 }
 
 .post-title {
@@ -72,41 +85,11 @@
     line-height: 1.5;
 }
 
-.post-author {
-    font-size: 12px;
-    font-weight: 500;
-    align-self: flex-end;
-    font-style: italic;
-}
-
-.post-icons-container {
-    display: flex;
-    gap: 8px;
-    position: absolute;
-    right: 8px;
-    top: 8px;
-    background-color: #fff;
-    padding: 4px 8px;
-    border-radius: 4px;
-}
-
-.post-icons-container img {
-    height: 24px;
-    width: 24px;
-    object-fit: contain;
-    border: none;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .post {
         flex-direction: column;
         text-align: center;
-    }
-
-    .users .post {
-        flex-direction: column;
-        text-align: start;
     }
 
     .post-image {

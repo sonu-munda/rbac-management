@@ -29,7 +29,7 @@ export default function Appbar() {
                     <img src='profile-user.png' />
                     <span className='logout-button'>LOGOUT</span>
                 </div>
-                <span class="tooltiptext">sonu@gmail.com</span>
+                <span className="tooltiptext">sonu@gmail.com</span>
             </div>}
         </header>
     )

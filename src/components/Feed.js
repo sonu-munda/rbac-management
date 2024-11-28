@@ -51,8 +51,8 @@ export default function Feed() {
                         <span className='post-author'>~{post.author}</span>
                     </div>
                     <div className='post-icons-container'>
-                        <img src='edit.png' alt="Post Image" className="post-image" />
-                        <img src='bin.png' alt="Post Image" className="post-image" />
+                        <img src='edit.png' alt="Post Image" />
+                        <img src='bin.png' alt="Post Image" />
                     </div>
                 </div>)}
             </main>
