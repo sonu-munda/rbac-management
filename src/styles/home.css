@@ -35,15 +35,14 @@
 }
 
 .home-button img {
-    height: 120px;
-    width: 120px;
-    filter: brightness(0.5) saturate(0%);
+    height: 80px;
+    width: 80px;
 }
 
 .home-button h4 {
     align-self: center;
     font-size: 24px;
-    color: black;
+    color: white;
 }
 
 
