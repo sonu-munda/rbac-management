@@ -4,4 +4,63 @@
     color: white;
     text-align: center;
     width: 100%;
+    position: relative;
+}
+
+.logged-in-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 8px;
+}
+
+.logged-in-user img {
+    width: 28px;
+    height: 28px;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    color: white;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.appbar .tooltip {
+    position: absolute;
+    right: 24px;
+    top: 0;
+    height: 100%;
+}
+
+.appbar .tooltip .tooltiptext {
+    top: 0;
+    left: -130px;
+}
+
+.appbar .menu-icon {
+    height: 100%;
+    width: 24px;
+    object-fit: contain;
+    position: absolute;
+    left: 24px;
+    top: 0px;
+    display: none;
+}
+
+@media screen and (max-width:767px) {
+    .appbar {
+        padding-inline: 48px;
+    }
+
+    .appbar .menu-icon {
+        display: block;
+    }
+
+    .appbar .tooltip {
+        position: relative;
+    }
 }
