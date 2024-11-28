@@ -8,8 +8,10 @@ export default function HomeScreen() {
     return (
         <>
             <Appbar />
-            <HomeButtons />
-            <Feed />
+            <div className='container-wrapper'>
+                <HomeButtons />
+                <Feed />
+            </div>
         </>
     )
 }

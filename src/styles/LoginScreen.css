@@ -1,4 +1,4 @@
-body {
+.login-container-wrapper {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #4c669f, #3b5998, #192f6a);
@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%;
 }
 
 
