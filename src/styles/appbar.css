@@ -37,8 +37,8 @@
 }
 
 .appbar .tooltip .tooltiptext {
-    top: 0;
-    left: -130px;
+    bottom: -10px;
+    left: -50px;
 }
 
 .appbar .menu-icon {
